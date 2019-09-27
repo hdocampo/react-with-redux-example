@@ -1,11 +1,14 @@
 {
-  "name": "testing-in-react-js",
+  "name": "todo-with-redux-and-testing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
-    "react-scripts": "2.1.1"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.4",
+    "redux-devtools": "^3.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +17,9 @@
     "eject": "react-scripts eject"
   },
   "jest": {
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
